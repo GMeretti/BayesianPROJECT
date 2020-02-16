@@ -1,0 +1,17 @@
+model{
+	for(i in 1:n){ 
+		log(lambda[i]) <- alpha + inprod(beta[], X[i, ]) 
+		Y[i] ~ dpois(lambda[i])               
+	}  
+	
+	## priors
+	for(i in 1:r){
+		beta[i] ~ dnorm(0,tau[i])
+    		tau[i] <-(100*(1-delta[i]))+(0.001*(delta[i]))    
+    		delta[i] ~ dbern(prob)
+   }
+  
+  prob ~ dunif(0,1)           
+  alpha ~ dnorm(0,0.1) 
+
+}

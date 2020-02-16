@@ -1,0 +1,16 @@
+##Model with time zones
+
+model{
+	for(i in 1:n){ 
+		for(j in 1:4){
+		log(lambda[i,j]) <- alpha + inprod(beta[], X[i, c(1:3,3+j,8:13)]) 
+		Y[i,j] ~ dpois(lambda[i,j])               
+	} } 
+	
+	## priors
+	for(i in 1:r){
+		beta[i] ~ dnorm(0,.001)  
+	}
+
+	alpha ~ dnorm(0, .001)
+}

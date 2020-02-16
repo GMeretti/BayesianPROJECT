@@ -1,0 +1,31 @@
+model{	
+	## Priors
+	rho[lag+1] ~ dnorm(0, .1)
+	mu[lag+1]  ~ dnorm(mean_mu, .1) 
+	delta[lag+1] ~ dnorm(0, .1)
+  	gamma[1:(lag+1)]  ~ dmnorm(mean_gamma, var_gamma)
+	alpha  ~ dnorm(0, .001)  
+	for(h in 1:2){
+		beta[h] ~ dnorm(0, .001)  
+	}
+	for(k in 1:5){
+		tau[k] ~ dunif(0.00005, 100)  
+	}
+
+	## Model
+	
+	for(i in (lag+1):(lag+n)){
+		mu[i+1] ~ dnorm(mu[i] + delta[i], tau[2])
+		delta[i+1] ~ dnorm(delta[i], tau[3])
+		gamma[i+1] ~ dnorm(-sum(gamma[(i-lag):i]), tau[4])
+		rho[i+1] ~ dnorm(alpha*rho[i], tau[5])
+		Y[i-lag] ~ dnorm(mu[i] + gamma[i] + rho[i] + beta[1]*Rt[i-lag] + beta[2]*T[i-lag], tau[1])
+	}  
+
+	## Predictive 
+	
+	for(i in (lag+1):(lag+n)){
+		Ypred[i-lag] ~ dnorm(mu[i] + gamma[i] + rho[i] + beta[1]*Rt[i-lag] + beta[2]*T[i-lag], tau[1])
+	}
+}
+

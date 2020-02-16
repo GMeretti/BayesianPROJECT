@@ -1,0 +1,52 @@
+model{
+	## Priors
+	for(j in (lag+1):(lag+1+dummy-1))
+	{
+		mu[j] ~ dnorm(mean_mu, tau[2])
+		delta[j]~ dnorm(0, tau[3])
+	}
+	rho[lag+1+dummy] ~ dnorm(0, tau[5])
+	mu[lag+1+dummy]  ~ dnorm(mean_mu, tau[2])
+	delta[lag+1+dummy] ~ dnorm(0, tau[3])
+	for (l in (1+dummy):(lag+1+dummy)){
+		gamma[l]  ~ dmnorm(mean_gamma[l-dummy], tau[4])
+	}
+
+	alpha  ~ dnorm(0, 0.001)
+	for(h in 1:2){
+		beta[h] ~ dnorm(0, .00001)
+		nu[h] ~ dnorm(0, .00001)
+	}
+	tau[1] ~ dunif(1e-7, 1e-4)
+	tau[5] ~ dunif(1e-5, 1e-3)
+	for(k in 2:4){
+		tau[k] ~ dunif(1e-5, 1e-4)
+	}
+
+	## Model
+
+	for(i in (lag+1+dummy):(lag+n+dummy)){
+		mu_avg_branch[i,1] ~ dnorm(1/2*mu[i] + 1/3* mu[i-S+1] + 1/6*mu[i-S*2+1] + 1/2*delta[i] + 1/3*delta[i-S+1] + 1/6*delta[i-S*2+1], tau[2])
+		mu_avg_branch[i,2] ~ dnorm(1/2*(mu[i] + mu[i-S+1] + delta[i] + delta[i-S+1]), tau[2])
+		mu_avg_branch[i,3] ~ dnorm(mu[i] + delta[i], tau[2])
+
+		delta_avg_branch[i,1] ~ dnorm(1/2*delta[i] + 1/3*delta[i-S+1] + 1/6*delta[i-S*2+1], tau[3])
+		delta_avg_branch[i,2] ~ dnorm(1/2*(delta[i] + delta[i-S+1]), tau[3])
+		delta_avg_branch[i,3] ~ dnorm(delta[i], tau[3])
+
+		if_branch[i] <- 1 + step(-(i-lag-dummy-S)) + step(-(i-lag-dummy-2*S))
+
+		mu[i+1] <- mu_avg_branch[i, if_branch[i]]
+		delta[i+1] <- delta_avg_branch[i, if_branch[i]]
+		gamma[i+1] ~ dnorm(-sum(gamma[(i-lag):i]), tau[4])
+		rho[i+1] ~ dnorm(alpha*rho[i], tau[5])
+		meanlik[i] = mu[i] + gamma[i] + rho[i] + (beta[1]+nu[1]*Wd[i-lag-dummy])*Rt[i-lag-dummy] + (beta[2]+nu[2]*Wd[i-lag-dummy])*T[i-lag-dummy]
+		Y[i-lag-dummy] ~ dnorm(mu[i] + gamma[i] + rho[i] + (beta[1]+nu[1]*Wd[i-lag-dummy])*Rt[i-lag-dummy] + (beta[2]+nu[2]*Wd[i-lag-dummy])*T[i-lag-dummy], tau[1])
+	}
+
+	## Prediction
+
+	for(i in (lag+1+dummy):(lag+n+dummy)){
+		Ypred[i-lag-dummy] ~ dnorm(mu[i] + gamma[i] + rho[i] + (beta[1]+nu[1]*Wd[i-lag-dummy])*Rt[i-lag-dummy] + (beta[2]+nu[2]*Wd[i-lag-dummy])*T[i-lag-dummy], tau[1])
+	}
+}

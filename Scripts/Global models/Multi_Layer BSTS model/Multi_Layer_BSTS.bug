@@ -1,0 +1,53 @@
+model{
+	## Priors
+	for(u in 1:(dummy_weeks*S))
+	{
+		mu[u] ~ dnorm(0, .1)
+		delta[u]~ dnorm(0, .1)
+	}
+
+	mu[dummy_weeks*S + 1]  ~ dnorm(mean_mu, tau[2])
+	delta[dummy_weeks*S + 1] ~ dnorm(0, tau[3])
+
+	for (l in (dummy_weeks*S - (S-2) + 1):(dummy_weeks*S + 1)){
+		gamma[l]  ~ dnorm(mean_gamma[l - (dummy_weeks*S - (S-2))], tau[4])
+	}
+
+	for (h in (F*(dummy_weeks*S + 1-1) - (F-2) + 1):(F*(dummy_weeks*S + 1-1) + 1)){
+		chi[h] ~ dnorm(mean_chi[h - (F*(dummy_weeks*S) - (F-2))], tau[5])
+	}
+
+	for(h in 1:2){
+		beta[h] ~ dnorm(0, .00001)
+		nu[h] ~ dnorm(0, .00001)
+	}
+
+	tau[1] ~ dunif(1e-7, 1e-4)
+	for(k in 2:5){
+		tau[k] ~ dunif(1e-5, 1e-4)
+	}
+
+	for(l in 1:F){
+		xi[l] ~ dnorm(0, 0.00001)
+	}
+
+	## Model
+	for(k in dummy_weeks:(tot_weeks+dummy_weeks-1)){
+		for(i in 1:S){
+			mu[S*k + i+1] ~ dnorm(mu[S*k + i] + delta[S*k + i], tau[2])
+			delta[S*k + i+1] ~ dnorm(delta[S*k + i], tau[3])
+			gamma[S*k + i+1] ~ dnorm(-sum(gamma[(S*k + i - (S-2)):(S*k + i)]), tau[4])
+
+			for (j in 1:F)
+			{
+				chi[F*(S*k + i-1) + j+1] ~ dnorm(-sum(chi[(F*(S*k + i-1) + j - (F-2)):(F*(S*k + i-1) + j)]), tau[5])
+				pred_Y[F*(S*(k-dummy_weeks) +  i-1) +  j] ~ dnorm(mu[S*k + i] + gamma[S*k + i] + chi[F*(S*k +i-1) + j] + (beta[1]+nu[1]*Wd[i]+xi[j])*Rt[(k-dummy_weeks)*S + i] + (beta[2]+nu[2]*Wd[i])*T[(k-dummy_weeks)*S + i],1)
+				Yp[F*(S*(k-dummy_weeks) +  i-1) +  j] ~ dnorm(mu[S*k + i] + gamma[S*k + i] + chi[F*(S*k +i-1) + j] + (beta[1]+nu[1]*Wd[i]+xi[j])*Rt[(k-dummy_weeks)*S + i] + (beta[2]+nu[2]*Wd[i])*T[(k-dummy_weeks)*S + i], tau[1])
+				Y_acc[F*(S*(k-dummy_weeks) +  i-1) +  j] = max(0, Yp[F*(S*(k-dummy_weeks) +  i-1) +  j])
+				meanlik[F*(S*(k-dummy_weeks) +  i-1) +  j] = Y_acc[F*(S*(k-dummy_weeks) +  i-1) +  j]+0.001
+				Y[F*(S*(k-dummy_weeks) +  i-1) +  j] ~ dnorm(Y_acc[F*(S*(k-dummy_weeks) +  i-1) +  j]+0.001, 1000)
+				Ypred[F*(S*(k-dummy_weeks) +  i-1) +  j] ~ dnorm(Y_acc[F*(S*(k-dummy_weeks) +  i-1) +  j]+0.001, 1000)
+			}
+		}
+	}
+}

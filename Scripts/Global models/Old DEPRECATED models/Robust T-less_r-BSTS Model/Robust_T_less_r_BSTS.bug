@@ -1,0 +1,38 @@
+model{
+	## Priors
+	for(j in (lag+1):(lag+1+dummy-1))
+	{
+		mu[j] ~ dnorm(0, .1)
+		delta[j]~ dnorm(0, .1)
+	}
+	rho[lag+1+dummy] ~ dnorm(0, 0.001)
+	mu[lag+1+dummy]  ~ dnorm(mean_mu, 0.001)
+	delta[lag+1+dummy] ~ dnorm(0, 0.001)
+  	gamma[(1+dummy):(lag+1+dummy)]  ~ dmnorm(mean_gamma, var_gamma)
+	alpha  ~ dnorm(0, 0.001)
+	beta ~ dnorm(0, 0.001)
+
+	for(k in 1:5){
+		tau[k] ~ dunif(0.00005, 0.001)
+	}
+
+	## Model
+
+	for(i in (lag+1+dummy):(lag+n+dummy)){
+		mu_avg_branch[i,1] ~ dnorm(1/2*mu[i] + 1/3* mu[i-S+1] + 1/6*mu[i-S*2+1] + 1/2*delta[i] + 1/3*delta[i-S+1] + 1/6*delta[i-S*2+1], tau[2])
+		mu_avg_branch[i,2] ~ dnorm(1/2*(mu[i] + mu[i-S+1] + delta[i] + delta[i-S+1]), tau[2])
+		mu_avg_branch[i,3] ~ dnorm(mu[i] + delta[i], tau[2])
+
+		delta_avg_branch[i,1] ~ dnorm(1/2*delta[i] + 1/3*delta[i-S+1] + 1/6*delta[i-S*2+1], tau[3])
+		delta_avg_branch[i,2] ~ dnorm(1/2*(delta[i] + delta[i-S+1]), tau[3])
+		delta_avg_branch[i,3] ~ dnorm(delta[i], tau[3])
+
+		if_branch[i] <- 1 + step(-(i-lag-dummy-S)) + step(-(i-lag-dummy-2*S))
+
+		mu[i+1] <- mu_avg_branch[i, if_branch[i]]
+		delta[i+1] <- delta_avg_branch[i, if_branch[i]]
+		gamma[i+1] ~ dnorm(-sum(gamma[(i-lag):i]), tau[4])
+		rho[i+1] ~ dnorm(alpha*rho[i], tau[5])
+		Y[i-lag-dummy] ~ dnorm(mu[i] + gamma[i] + rho[i] + beta*Rt[i-lag-dummy], tau[1])
+	}
+}

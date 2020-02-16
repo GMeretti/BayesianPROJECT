@@ -1,0 +1,20 @@
+model{
+	for(i in 1:n){ 
+		lambda[i] <- exp(alpha + inprod(beta[], X[i, ]) )
+		Y[i] ~ dpois(lambda[i])               
+	}  
+	
+	## priors
+	for(i in 1:r){
+		beta[i] ~ dnorm(0,.001)  
+	}
+
+	alpha ~ dnorm(0, .001)
+	
+	## Predictive
+	for(i in 1:n){ 
+		Ypred[i] ~ dpois(lambda[i])               
+	}  
+	
+}
+
