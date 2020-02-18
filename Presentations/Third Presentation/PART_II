@@ -1,0 +1,42 @@
+In order to improve the results given by the negative binomial approach, we also tried to implement a Bayesian Structural Time Series model (BSTS). We have already mentioned these structures in the previous presentation. 
+
+[[SLIDE A SCOMPARSA]]
+To make a brief recap, this class of models is a Bayesian variant af the classic modular paradigm typical of automatic control theory, where we see the output as superposition of the effects of several factors: a slow varying trend, a periodicity, possibly an autoregression, a regression factor and some residual error. All the previous terms are part of a fictitious state that evolves stochastically in time, according to reasonable rules to mimic its interpretation. Our benchmark factor from which we stared contains exactly all these ingredients.
+
+[[slide modello r-bsts corected]]
+From the previous presentation we have overcome the computational difficulty due to the gathering of all the variance in the output error. Instead of completely bocking the variance from below that lead to losing interpretation of the state, we decided to substitute gamma distributions with uniforms centered in suitably large intervals to grant both a proper meaning and correct measure to the terms. 
+
+[[slide iperparametri]]
+Here you can see the hyperparameters of the model, note that the initial conditions have been selected using the preliminary frequentist preprocessing done for the second presentation. The covariates employed are exactly the same suggested by the Poisson and NegBin model: the presence of rain and temperature.
+This model, like before, has been coded and run in JAGS.
+
+[[Slide 4 criteria of evaluation]]
+What are the rules for a proper evaluation of a model? In order of importance: proper diagnostics, goodness of fit according to predictive distributions, interpretability and last simpliciy.
+
+[[Diagnostics of model]]
+So, let's talk about diagnostics.
+This is an example of a traceplot coming from the main model, as you can see it is fat enough, we have also good autocorrleation and proper posterior distributions which somehow resamble the form of a gaussian.
+
+[[Slide valori predetti]]
+Also the prediction appears proper, the only problem is that the autoregressive component seems totally irrelevant, as we can see from the progressive superposition of the effects, starting from trend in blue, periodicity in green, covered by autoregressive part in yellow and regression in red, with respect to black the true data.
+
+[[Slide intervalli]]
+Finally, 90% credibility inttervals are well centered and contain the result 39 times out of 42, with a standard deviation of approximately 1200 trips.
+
+[[Variante temperatura]]
+Starting form this baseline we have developed many modifications in search of a lighter but equally effective model. We have tried to remove temperature from the set of predictors but without great success.
+
+[[Variante robusta]]
+We have also made an attempt of making the model more robust adding a more stable locally linear trend.
+
+[[Slide risultati]]
+Using as evaluation criteria the mean of absolute standardized residuals or the leave one out cross validation coefficent the original model always seemed more effective.
+
+[[Slide previsione]]
+As a final work, we tried to remove autoregression, this time with success according to the criteria of before. Here we show a possible prediction of the last week, according to this model, where the training set only covers the first 5 weeks. As we can see all points are within 90% confidence bars which are fortuntely not even too large.
+
+[[Slide modello 4 fasi]]
+Finally, we have passed from a day to day viwpoint to 4 time slots relationship covering, moring, mid-day, late afternoon and night. This was done  introuducing a second layer periodicity to capture these variations.
+
+[[Slide predizioni]]
+It's possible to show that also in this case diagnostics are proper and the predictions follow quite accurately the output, as seen in the slide.
