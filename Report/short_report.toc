@@ -1,0 +1,39 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Data preprocessing}{3}% 
+\contentsline {section}{\numberline {1.1}Criticalities of a purely Euclidean DBSCAN}{3}% 
+\contentsline {section}{\numberline {1.2}Penalized DBSCAN}{3}% 
+\contentsline {subsection}{\numberline {1.2.1}The algorithm}{3}% 
+\contentsline {subsection}{\numberline {1.2.2}Results}{4}% 
+\contentsline {section}{\numberline {1.3}Iterated Penalized DBSCAN}{5}% 
+\contentsline {chapter}{\numberline {2}Frequentist preprocessing}{6}% 
+\contentsline {section}{\numberline {2.1}Data representation}{6}% 
+\contentsline {section}{\numberline {2.2}Stationarization}{7}% 
+\contentsline {chapter}{\numberline {3}Global model}{8}% 
+\contentsline {section}{\numberline {3.1}Loglinear regression}{8}% 
+\contentsline {subsection}{\numberline {3.1.1}Poisson likelihood}{8}% 
+\contentsline {subsection}{\numberline {3.1.2}Negative Binomial likelihood}{9}% 
+\contentsline {section}{\numberline {3.2}Bayesian Structural Time Series}{11}% 
+\contentsline {subsection}{\numberline {3.2.1}Introduction to BSTS}{12}% 
+\contentsline {subsection}{\numberline {3.2.2}Proposed global models}{12}% 
+\contentsline {subsubsection}{Standard with autoregression}{13}% 
+\contentsline {paragraph}{Implementation}{14}% 
+\contentsline {paragraph}{Diagnostics}{14}% 
+\contentsline {paragraph}{Results}{15}% 
+\contentsline {subsubsection}{Standard with autoregression, without temperature}{16}% 
+\contentsline {paragraph}{Results}{16}% 
+\contentsline {subsubsection}{Robust standard with autoregression model}{16}% 
+\contentsline {paragraph}{Results}{17}% 
+\contentsline {subsection}{\numberline {3.2.3}Global model with time zones}{17}% 
+\contentsline {paragraph}{Hyperpameters}{18}% 
+\contentsline {paragraph}{Results}{19}% 
+\contentsline {chapter}{\numberline {4}Network model}{20}% 
+\contentsline {section}{\numberline {4.1}Preprocessing}{20}% 
+\contentsline {section}{\numberline {4.2}The Likelihood}{20}% 
+\contentsline {subsection}{\numberline {4.2.1}Bivariate Poisson}{20}% 
+\contentsline {subsection}{\numberline {4.2.2}Zero Inflated Poisson}{21}% 
+\contentsline {section}{\numberline {4.3}Generalized Linear Two-Way Mixed Model}{21}% 
+\contentsline {subsection}{\numberline {4.3.1}Offset model}{21}% 
+\contentsline {subsection}{\numberline {4.3.2}Model with parametric offsets (PO model)}{21}% 
+\contentsline {section}{\numberline {4.4}Computation of the posterior with JAGS software}{22}% 
+\contentsline {section}{\numberline {4.5}A final spatial model}{23}% 
+\contentsline {chapter}{\numberline {A}Bibliography}{24}% 

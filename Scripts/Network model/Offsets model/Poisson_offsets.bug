@@ -1,0 +1,45 @@
+model{  
+        for(i in 1:n){ 
+		lambda.0[i] <- exp(inprod((theta.0[] + beta.0[,X[i,p+1]] + alpha.0[,X[i,p+2]]), X[i, 1:p]))
+		lambda.1[i] <- exp(inprod((theta.1[] + beta.1[,X[i,p+1]] + alpha.1[,X[i,p+2]]), X[i, 1:p]))
+		lambda.2[i] <- exp(inprod((theta.2[] + beta.2[,X[i,p+1]] + alpha.2[,X[i,p+2]]), X[i, 1:p]))
+		for(j in 1:m){
+			X.0[i,j] ~ dpois(lambda.0[i]*off[j,1])
+			X.1[i,j] ~ dpois(lambda.1[i]*off[j,1])
+			X.2[i,j] ~ dpois(lambda.2[i]*off[j,1])
+			Nin[i,j] ~ dnorm(X.0[i,j] + X.1[i,j], .0000001)
+			Nout[i,j] ~ dnorm(X.0[i,j] + X.2[i,j], .0000001)               
+	}}
+	
+	## priors
+	theta.0[1:p] ~ dmnorm(a[], B[,])
+	theta.1[1:p] ~ dmnorm(a[], B[,])
+	theta.2[1:p] ~ dmnorm(a[], B[,])
+	for(j in 1:2){
+		alpha.0[1:p,j] ~ dmnorm(mu.0[], Tau.1[,])
+		alpha.1[1:p,j] ~ dmnorm(mu.0[], Tau.1[,])
+		alpha.2[1:p,j] ~ dmnorm(mu.0[], Tau.1[,])
+	}
+	for(j in 1:H){
+		beta.0[1:p,j] ~ dmnorm(mu.0[], Tau.2[,])
+		beta.1[1:p,j] ~ dmnorm(mu.0[], Tau.2[,])
+		beta.2[1:p,j] ~ dmnorm(mu.0[], Tau.2[,])  
+	}
+
+	a[1:p] ~ dmnorm(mu.0[], I[,])
+
+	Tau.1[1:p,1:p] ~ dwish(I[,], p+1)
+	Tau.2[1:p,1:p] ~ dwish(I[,], p+1)
+	B[1:p,1:p] ~ dwish(I[,], p+1)
+	 
+	
+	## Predictive
+	for(i in 1:n){ 
+	for(j in 1:m){
+		X0_pred[i,j] ~ dpois(lambda.0[i]*off[j,1])
+		X1_pred[i,j] ~ dpois(lambda.1[i]*off[j,1])
+		X2_pred[i,j] ~ dpois(lambda.2[i]*off[j,1])               
+	}}  
+	
+}
+	

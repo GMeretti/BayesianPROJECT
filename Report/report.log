@@ -1,0 +1,1508 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.10.27)  18 FEB 2020 16:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2018-12-01>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks16
+\thm@bodyfont=\toks17
+\thm@headfont=\toks18
+\thm@notefont=\toks19
+\thm@headpunct=\toks20
+\thm@preskip=\skip43
+\thm@postskip=\skip44
+\thm@headsep=\skip45
+\dth@everypar=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks22
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen111
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks24
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks25
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks26
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen122
+\WF@size=\dimen123
+\c@WF@wrappedlines=\count104
+\WF@box=\box29
+\WF@everypar=\toks28
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks29
+\inpenc@posthook=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count105
+\calc@Bcount=\count106
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count107
+\calc@Cskip=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count108
+\l_MT_multwidth_dim=\dimen126
+\origjot=\skip52
+\l_MT_shortvdotswithinadjustabove_dim=\dimen127
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen128
+\l_MT_above_intertext_sep=\dimen129
+\l_MT_below_intertext_sep=\dimen130
+\l_MT_above_shortintertext_sep=\dimen131
+\l_MT_below_shortintertext_sep=\dimen132
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-07-01 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-07-01 L3 programming layer (code)
+\c_max_int=\count109
+\l_tmpa_int=\count110
+\l_tmpb_int=\count111
+\g_tmpa_int=\count112
+\g_tmpb_int=\count113
+\g__kernel_prg_map_int=\count114
+\c__ior_term_ior=\count115
+\c_log_iow=\count116
+\l_iow_line_count_int=\count117
+\l__iow_line_target_int=\count118
+\l__iow_one_indent_int=\count119
+\l__iow_indent_int=\count120
+\c_zero_dim=\dimen133
+\c_max_dim=\dimen134
+\l_tmpa_dim=\dimen135
+\l_tmpb_dim=\dimen136
+\g_tmpa_dim=\dimen137
+\g_tmpb_dim=\dimen138
+\c_zero_skip=\skip53
+\c_max_skip=\skip54
+\l_tmpa_skip=\skip55
+\l_tmpb_skip=\skip56
+\g_tmpa_skip=\skip57
+\g_tmpb_skip=\skip58
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count121
+\l__intarray_loop_int=\count122
+\c__intarray_sp_dim=\dimen139
+\g__intarray_font_int=\count123
+\c__fp_leading_shift_int=\count124
+\c__fp_middle_shift_int=\count125
+\c__fp_trailing_shift_int=\count126
+\c__fp_big_leading_shift_int=\count127
+\c__fp_big_middle_shift_int=\count128
+\c__fp_big_trailing_shift_int=\count129
+\c__fp_Bigg_leading_shift_int=\count130
+\c__fp_Bigg_middle_shift_int=\count131
+\c__fp_Bigg_trailing_shift_int=\count132
+\c__kernel_randint_max_int=\count133
+\g__fp_array_int=\count134
+\l__fp_array_loop_int=\count135
+\l__sort_length_int=\count136
+\l__sort_min_int=\count137
+\l__sort_top_int=\count138
+\l__sort_max_int=\count139
+\l__sort_true_max_int=\count140
+\l__sort_block_int=\count141
+\l__sort_begin_int=\count142
+\l__sort_end_int=\count143
+\l__sort_A_int=\count144
+\l__sort_B_int=\count145
+\l__sort_C_int=\count146
+\l__str_internal_int=\count147
+\c__str_replacement_char_int=\count148
+\l__tl_analysis_normal_int=\count149
+\l__tl_analysis_index_int=\count150
+\l__tl_analysis_nesting_int=\count151
+\l__tl_analysis_type_int=\count152
+\l__regex_internal_a_int=\count153
+\l__regex_internal_b_int=\count154
+\l__regex_internal_c_int=\count155
+\l__regex_balance_int=\count156
+\l__regex_group_level_int=\count157
+\l__regex_mode_int=\count158
+\c__regex_cs_in_class_mode_int=\count159
+\c__regex_cs_mode_int=\count160
+\l__regex_catcodes_int=\count161
+\l__regex_default_catcodes_int=\count162
+\c__regex_catcode_D_int=\count163
+\c__regex_catcode_S_int=\count164
+\c__regex_catcode_L_int=\count165
+\c__regex_catcode_O_int=\count166
+\c__regex_catcode_A_int=\count167
+\c__regex_all_catcodes_int=\count168
+\l__regex_show_lines_int=\count169
+\l__regex_min_state_int=\count170
+\l__regex_max_state_int=\count171
+\l__regex_left_state_int=\count172
+\l__regex_right_state_int=\count173
+\l__regex_capturing_group_int=\count174
+\l__regex_min_pos_int=\count175
+\l__regex_max_pos_int=\count176
+\l__regex_curr_pos_int=\count177
+\l__regex_start_pos_int=\count178
+\l__regex_success_pos_int=\count179
+\l__regex_curr_char_int=\count180
+\l__regex_curr_catcode_int=\count181
+\l__regex_last_char_int=\count182
+\l__regex_case_changed_char_int=\count183
+\l__regex_curr_state_int=\count184
+\l__regex_step_int=\count185
+\l__regex_min_active_int=\count186
+\l__regex_max_active_int=\count187
+\l__regex_replacement_csnames_int=\count188
+\l__regex_match_count_int=\count189
+\l__regex_min_submatch_int=\count190
+\l__regex_submatch_int=\count191
+\l__regex_zeroth_submatch_int=\count192
+\g__regex_trace_regex_int=\count193
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+\l__box_top_dim=\dimen140
+\l__box_bottom_dim=\dimen141
+\l__box_left_dim=\dimen142
+\l__box_right_dim=\dimen143
+\l__box_top_new_dim=\dimen144
+\l__box_bottom_new_dim=\dimen145
+\l__box_left_new_dim=\dimen146
+\l__box_right_new_dim=\dimen147
+\l__box_internal_box=\box35
+\l__coffin_internal_box=\box36
+\l__coffin_internal_dim=\dimen148
+\l__coffin_offset_x_dim=\dimen149
+\l__coffin_offset_y_dim=\dimen150
+\l__coffin_x_dim=\dimen151
+\l__coffin_y_dim=\dimen152
+\l__coffin_x_prime_dim=\dimen153
+\l__coffin_y_prime_dim=\dimen154
+\c_empty_coffin=\box37
+\l__coffin_aligned_coffin=\box38
+\l__coffin_aligned_internal_coffin=\box39
+\l_tmpa_coffin=\box40
+\l_tmpb_coffin=\box41
+\g_tmpa_coffin=\box42
+\g_tmpb_coffin=\box43
+\l__coffin_bounding_shift_dim=\dimen155
+\l__coffin_left_corner_dim=\dimen156
+\l__coffin_right_corner_dim=\dimen157
+\l__coffin_bottom_corner_dim=\dimen158
+\l__coffin_top_corner_dim=\dimen159
+\l__coffin_scaled_total_height_dim=\dimen160
+\l__coffin_scaled_width_dim=\dimen161
+\c__coffin_empty_coffin=\box44
+\l__coffin_display_coffin=\box45
+\l__coffin_display_coord_coffin=\box46
+\l__coffin_display_pole_coffin=\box47
+\l__coffin_display_offset_dim=\dimen162
+\l__coffin_display_x_dim=\dimen163
+\l__coffin_display_y_dim=\dimen164
+\g__file_internal_ior=\read1
+\l__seq_internal_a_int=\count194
+\l__seq_internal_b_int=\count195
+\c__deprecation_minus_one=\count196
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2019-04-06 v L3 Experimental backend support: PDF m
+ode
+\l__kernel_color_stack_int=\count197
+\l__pdf_internal_box=\box48
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2019-05-28 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count198
+\g__xparse_grabber_int=\count199
+\l__xparse_m_args_int=\count266
+\l__xparse_v_nesting_int=\count267
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/06/03 3.32 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/06/03 3.32 Babel common definitions
+\babel@savecnt=\count268
+\U@D=\dimen165
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count269
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count270
+\c@@ppsavesec=\count271
+\c@@ppsaveapp=\count272
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count273
+\float@exts=\toks31
+\float@box=\box49
+\@float@everytoks=\toks32
+\@floatcapt=\box50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip59
+\enit@outerparindent=\dimen166
+\enit@toks=\toks33
+\enit@inbox=\box51
+\enit@count@id=\count274
+\enitdp@description=\count275
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen167
+\captionmargin@=\dimen168
+\captionwidth=\dimen169
+\caption@tempdima=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+)
+\c@caption@flags=\count276
+\c@ContinuedFloat=\count277
+Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@subfigure=\count278
+\c@subtable=\count279
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip60
+\f@nch@O@elh=\skip61
+\f@nch@O@erh=\skip62
+\f@nch@O@olh=\skip63
+\f@nch@O@orh=\skip64
+\f@nch@O@elf=\skip65
+\f@nch@O@erf=\skip66
+\f@nch@O@olf=\skip67
+\f@nch@O@orf=\skip68
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip69
+\aftertitleunit=\skip70
+\ttl@plus=\dimen174
+\ttl@minus=\dimen175
+\ttl@toksa=\toks34
+\titlewidth=\dimen176
+\titlewidthlast=\dimen177
+\titlewidthfirst=\dimen178
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count280
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip71
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count281
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip72
+\skiplinenumber=\skip73
+\skiprule=\skip74
+\skiphlne=\skip75
+\skiptext=\skip76
+\skiplength=\skip77
+\algomargin=\skip78
+\skipalgocfslide=\skip79
+\algowidth=\dimen179
+\inoutsize=\dimen180
+\inoutindent=\dimen181
+\interspacetitleruled=\dimen182
+\interspacealgoruled=\dimen183
+\interspacetitleboxruled=\dimen184
+\algocf@ruledwidth=\skip80
+\algocf@inoutbox=\box53
+\algocf@inputbox=\box54
+\AlCapSkip=\skip81
+\AlCapHSkip=\skip82
+\algoskipindent=\skip83
+\algocf@nlbox=\box55
+\algocf@hangingbox=\box56
+\algocf@untilbox=\box57
+\algocf@skipuntil=\skip84
+\algocf@capbox=\box58
+\algocf@lcaptionbox=\skip85
+\algoheightruledefault=\skip86
+\algoheightrule=\skip87
+\algotitleheightruledefault=\skip88
+\algotitleheightrule=\skip89
+\c@algocfline=\count282
+\c@algocfproc=\count283
+\c@algocf=\count284
+\algocf@algoframe=\box59
+\algocf@algobox=\box60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/ttlkeys.def
+File: ttlkeys.def 2016/03/15
+\c@ttlp@side=\count285
+\ttlp@side=\count286
+)
+\c@definition=\count287
+\c@lemma=\count288
+\c@prop=\count289
+\c@model=\count290
+ (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 17.07164pt
+* modes: twoside 
+* h-part:(L,W,R)=(50.07684pt, 455.24408pt, 75.11531pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24408pt
+* \textheight=731.23584pt
+* \oddsidemargin=-5.1215pt
+* \evensidemargin=2.84532pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=113.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count291
+\scratchdimen=\dimen185
+\scratchbox=\box61
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen186
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks36
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<./pictures/logo.jpg, id=1, 186.6975pt x 236.885pt>
+File: ./pictures/logo.jpg Graphic file (type jpg)
+<use ./pictures/logo.jpg>
+Package pdftex.def Info: ./pictures/logo.jpg  used on input line 66.
+(pdftex.def)             Requested size: 99.58464pt x 126.35449pt.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/logo.jpg>]
+[2] (./report.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+))
+\tf@toc=\write3
+\openout3 = `report.toc'.
+
+ [1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 122--125
+
+ []
+
+[2
+
+]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+
+ []
+
+[3
+
+]
+<./pictures/old_model_gephi.png, id=26, 936.49875pt x 794.97pt>
+File: ./pictures/old_model_gephi.png Graphic file (type png)
+<use ./pictures/old_model_gephi.png>
+Package pdftex.def Info: ./pictures/old_model_gephi.png  used on input line 138
+.
+(pdftex.def)             Requested size: 426.79134pt x 362.29417pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
+
+ []
+
+<./pictures/original_graph_gephi.png, id=28, 935.495pt x 769.87625pt>
+File: ./pictures/original_graph_gephi.png Graphic file (type png)
+<use ./pictures/original_graph_gephi.png>
+Package pdftex.def Info: ./pictures/original_graph_gephi.png  used on input lin
+e 150.
+(pdftex.def)             Requested size: 426.79134pt x 351.23402pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 13.59999pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[4 <./pictures/old_model_gephi.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 157.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
+
+ []
+
+
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+ [5 <./pictures/original_graph_gephi.png>]
+<pictures/number_out_links.png, id=44, 1149.29375pt x 884.30376pt>
+File: pictures/number_out_links.png Graphic file (type png)
+<use pictures/number_out_links.png>
+Package pdftex.def Info: pictures/number_out_links.png  used on input line 165.
+
+(pdftex.def)             Requested size: 199.16928pt x 153.24422pt.
+<pictures/loop_percentages_distribution.png, id=45, 1156.32pt x 886.31125pt>
+File: pictures/loop_percentages_distribution.png Graphic file (type png)
+<use pictures/loop_percentages_distribution.png>
+Package pdftex.def Info: pictures/loop_percentages_distribution.png  used on in
+put line 172.
+(pdftex.def)             Requested size: 199.16928pt x 152.65894pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 163--176
+[]$[]$  $[]$ 
+ []
+
+[6 <./pictures/number_out_links.png> <./pictures/loop_percentages_distribution.
+png>]
+Underfull \hbox (badness 10000) in paragraph at lines 189--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--230
+
+ []
+
+[7]
+<./pictures/M1_gephi.png, id=60, 1041.8925pt x 825.0825pt>
+File: ./pictures/M1_gephi.png Graphic file (type png)
+<use ./pictures/M1_gephi.png>
+Package pdftex.def Info: ./pictures/M1_gephi.png  used on input line 234.
+(pdftex.def)             Requested size: 398.33858pt x 315.44824pt.
+ [8 <./pictures/M1_gephi.png>]
+<pictures/M1_n_links.png, id=68, 1163.34625pt x 878.28125pt>
+File: pictures/M1_n_links.png Graphic file (type png)
+<use pictures/M1_n_links.png>
+Package pdftex.def Info: pictures/M1_n_links.png  used on input line 248.
+(pdftex.def)             Requested size: 199.16928pt x 150.36455pt.
+<pictures/M1_loop_percentages.png, id=69, 1170.3725pt x 880.28876pt>
+File: pictures/M1_loop_percentages.png Graphic file (type png)
+<use pictures/M1_loop_percentages.png>
+Package pdftex.def Info: pictures/M1_loop_percentages.png  used on input line 2
+55.
+(pdftex.def)             Requested size: 199.16928pt x 149.79486pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 246--259
+[]$[]$  $[]$ 
+ []
+
+[9 <./pictures/M1_n_links.png> <./pictures/M1_loop_percentages.png>]
+<pictures/1013_1.png, id=75, 638.385pt x 607.26875pt>
+File: pictures/1013_1.png Graphic file (type png)
+<use pictures/1013_1.png>
+Package pdftex.def Info: pictures/1013_1.png  used on input line 272.
+(pdftex.def)             Requested size: 199.16928pt x 189.45596pt.
+<pictures/1013_2.png, id=76, 650.43pt x 634.37pt>
+File: pictures/1013_2.png Graphic file (type png)
+<use pictures/1013_2.png>
+Package pdftex.def Info: pictures/1013_2.png  used on input line 278.
+(pdftex.def)             Requested size: 199.16928pt x 194.25209pt.
+
+Overfull \hbox (20.62831pt too wide) in paragraph at lines 270--281
+[]$[]$  $[]$ 
+ []
+
+<pictures/M2_graph.png, id=77, 942.52126pt x 788.9475pt>
+File: pictures/M2_graph.png Graphic file (type png)
+<use pictures/M2_graph.png>
+Package pdftex.def Info: pictures/M2_graph.png  used on input line 291.
+(pdftex.def)             Requested size: 378.42165pt x 316.7652pt.
+
+Overfull \hbox (150.7996pt too wide) in paragraph at lines 291--292
+ [][] 
+ []
+
+<pictures/M3_graph.png, id=78, 1004.75375pt x 828.09375pt>
+File: pictures/M3_graph.png Graphic file (type png)
+<use pictures/M3_graph.png>
+Package pdftex.def Info: pictures/M3_graph.png  used on input line 297.
+(pdftex.def)             Requested size: 378.42165pt x 311.87378pt.
+
+Overfull \hbox (150.7996pt too wide) in paragraph at lines 297--298
+ [][] 
+ []
+
+[10 <./pictures/1013_1.png> <./pictures/1013_2.png>] [11 <./pictures/M2_graph.p
+ng> <./pictures/M3_graph.png>]
+<pictures/M3_links.png, id=90, 630.355pt x 576.1525pt>
+File: pictures/M3_links.png Graphic file (type png)
+<use pictures/M3_links.png>
+Package pdftex.def Info: pictures/M3_links.png  used on input line 313.
+(pdftex.def)             Requested size: 165.02597pt x 150.8335pt.
+<pictures/M3_loop.png, id=91, 634.37pt x 585.18625pt>
+File: pictures/M3_loop.png Graphic file (type png)
+<use pictures/M3_loop.png>
+Package pdftex.def Info: pictures/M3_loop.png  used on input line 320.
+(pdftex.def)             Requested size: 165.02597pt x 152.22519pt.
+
+Overfull \hbox (20.62831pt too wide) in paragraph at lines 311--324
+[]$[]$  $[]$ 
+ []
+
+[12 <./pictures/M3_links.png> <./pictures/M3_loop.png>]
+Chapter 2.
+<pictures/cadorna_duomo.png, id=97, 653.44125pt x 646.415pt>
+File: pictures/cadorna_duomo.png Graphic file (type png)
+<use pictures/cadorna_duomo.png>
+Package pdftex.def Info: pictures/cadorna_duomo.png  used on input line 335.
+(pdftex.def)             Requested size: 241.84842pt x 239.23885pt.
+[13
+
+ <./pictures/cadorna_duomo.png>]
+<pictures/humidity.png, id=102, 1848.9075pt x 1001.7425pt>
+File: pictures/humidity.png Graphic file (type png)
+<use pictures/humidity.png>
+Package pdftex.def Info: pictures/humidity.png  used on input line 345.
+(pdftex.def)             Requested size: 312.9803pt x 169.57556pt.
+<pictures/wind.png, id=103, 1838.87pt x 1000.73875pt>
+File: pictures/wind.png Graphic file (type png)
+<use pictures/wind.png>
+Package pdftex.def Info: pictures/wind.png  used on input line 352.
+(pdftex.def)             Requested size: 312.9803pt x 170.32185pt.
+<pictures/temperatures.png, id=104, 1838.87pt x 1006.76125pt>
+File: pictures/temperatures.png Graphic file (type png)
+<use pictures/temperatures.png>
+Package pdftex.def Info: pictures/temperatures.png  used on input line 359.
+(pdftex.def)             Requested size: 312.9803pt x 171.34685pt.
+ [14 <./pictures/humidity.png> <./pictures/wind.png> <./pictures/temperatures.p
+ng>]
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+
+ []
+
+<pictures/moving_average.png, id=111, 906.38625pt x 996.72375pt>
+File: pictures/moving_average.png Graphic file (type png)
+<use pictures/moving_average.png>
+Package pdftex.def Info: pictures/moving_average.png  used on input line 398.
+(pdftex.def)             Requested size: 184.9429pt x 203.37154pt.
+<pictures/period.png, id=112, 917.4275pt x 996.72375pt>
+File: pictures/period.png Graphic file (type png)
+<use pictures/period.png>
+Package pdftex.def Info: pictures/period.png  used on input line 405.
+(pdftex.def)             Requested size: 184.9429pt x 200.92293pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 396--409
+[]$[]$  $[]$ 
+ []
+
+[15 <./pictures/moving_average.png> <./pictures/period.png>]
+<pictures/residuals.png, id=118, 648.4225pt x 615.29875pt>
+File: pictures/residuals.png Graphic file (type png)
+<use pictures/residuals.png>
+Package pdftex.def Info: pictures/residuals.png  used on input line 416.
+(pdftex.def)             Requested size: 184.9429pt x 175.49341pt.
+<pictures/corr.png, id=119, 651.43375pt x 651.43375pt>
+File: pictures/corr.png Graphic file (type png)
+<use pictures/corr.png>
+Package pdftex.def Info: pictures/corr.png  used on input line 422.
+(pdftex.def)             Requested size: 184.9429pt x 184.94485pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 414--425
+[]$[]$  $[]$ 
+ []
+
+[16 <./pictures/residuals.png> <./pictures/corr.png>]
+<pictures/division.png, id=125, 1845.89626pt x 1009.7725pt>
+File: pictures/division.png Graphic file (type png)
+<use pictures/division.png>
+Package pdftex.def Info: pictures/division.png  used on input line 435.
+(pdftex.def)             Requested size: 455.24408pt x 249.02196pt.
+<pictures/correlation_color.png, id=126, 1851.91875pt x 1014.79124pt>
+File: pictures/correlation_color.png Graphic file (type png)
+<use pictures/correlation_color.png>
+Package pdftex.def Info: pictures/correlation_color.png  used on input line 444
+.
+(pdftex.def)             Requested size: 426.79134pt x 233.8616pt.
+ [17 <./pictures/division.png> <./pictures/correlation_color.png>]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+<pictures/poiss_y.png, id=133, 1355.0625pt x 681.54625pt>
+File: pictures/poiss_y.png Graphic file (type png)
+<use pictures/poiss_y.png>
+Package pdftex.def Info: pictures/poiss_y.png  used on input line 489.
+(pdftex.def)             Requested size: 455.24408pt x 228.96678pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--492
+
+ []
+
+[18
+
+]
+<pictures/poiss_beta.png, id=140, 1359.0775pt x 690.58pt>
+File: pictures/poiss_beta.png Graphic file (type png)
+<use pictures/poiss_beta.png>
+Package pdftex.def Info: pictures/poiss_beta.png  used on input line 497.
+(pdftex.def)             Requested size: 455.24408pt x 231.31676pt.
+ [19 <./pictures/poiss_y.png> <./pictures/poiss_beta.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
+
+ []
+
+<pictures/negbin_single_r_stat.png, id=146, 1366.10374pt x 705.63625pt>
+File: pictures/negbin_single_r_stat.png Graphic file (type png)
+<use pictures/negbin_single_r_stat.png>
+Package pdftex.def Info: pictures/negbin_single_r_stat.png  used on input line 
+530.
+(pdftex.def)             Requested size: 455.24408pt x 235.14331pt.
+<pictures/negbin_single_r_acf.png, id=147, 1358.07375pt x 691.58376pt>
+File: pictures/negbin_single_r_acf.png Graphic file (type png)
+<use pictures/negbin_single_r_acf.png>
+Package pdftex.def Info: pictures/negbin_single_r_acf.png  used on input line 5
+36.
+(pdftex.def)             Requested size: 455.24408pt x 231.82181pt.
+
+Underfull \vbox (badness 2111) has occurred while \output is active []
+
+ [20 <./pictures/negbin_single_r_stat.png>]
+<pictures/negbin_single_r_beta.png, id=152, 1358.07375pt x 688.5725pt>
+File: pictures/negbin_single_r_beta.png Graphic file (type png)
+<use pictures/negbin_single_r_beta.png>
+Package pdftex.def Info: pictures/negbin_single_r_beta.png  used on input line 
+544.
+(pdftex.def)             Requested size: 455.24408pt x 230.81242pt.
+<pictures/negbin_single_r_pred.png, id=153, 1358.07375pt x 679.53876pt>
+File: pictures/negbin_single_r_pred.png Graphic file (type png)
+<use pictures/negbin_single_r_pred.png>
+Package pdftex.def Info: pictures/negbin_single_r_pred.png  used on input line 
+551.
+(pdftex.def)             Requested size: 455.24408pt x 227.78429pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./pictures/negbin_single_r_acf.png> <./pictures/negbin_single_r_beta.png>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
+
+ []
+
+<pictures/negbin_double_r_trace_beta.png, id=159, 1352.05125pt x 682.55pt>
+File: pictures/negbin_double_r_trace_beta.png Graphic file (type png)
+<use pictures/negbin_double_r_trace_beta.png>
+Package pdftex.def Info: pictures/negbin_double_r_trace_beta.png  used on input
+ line 580.
+(pdftex.def)             Requested size: 312.9803pt x 157.99344pt.
+<pictures/negbin_double_r_trace_theta.png, id=160, 1357.07pt x 690.58pt>
+File: pictures/negbin_double_r_trace_theta.png Graphic file (type png)
+<use pictures/negbin_double_r_trace_theta.png>
+Package pdftex.def Info: pictures/negbin_double_r_trace_theta.png  used on inpu
+t line 586.
+(pdftex.def)             Requested size: 369.88582pt x 188.21883pt.
+[22 <./pictures/negbin_single_r_pred.png> <./pictures/negbin_double_r_trace_bet
+a.png>]
+<pictures/negbin_double_r_beta.png, id=166, 1359.0775pt x 694.595pt>
+File: pictures/negbin_double_r_beta.png Graphic file (type png)
+<use pictures/negbin_double_r_beta.png>
+Package pdftex.def Info: pictures/negbin_double_r_beta.png  used on input line 
+593.
+(pdftex.def)             Requested size: 369.88582pt x 189.03757pt.
+<pictures/negbin_double_r_theta.png, id=167, 1363.0925pt x 689.57625pt>
+File: pictures/negbin_double_r_theta.png Graphic file (type png)
+<use pictures/negbin_double_r_theta.png>
+Package pdftex.def Info: pictures/negbin_double_r_theta.png  used on input line
+ 599.
+(pdftex.def)             Requested size: 375.57637pt x 189.99706pt.
+<pictures/negbin_double_r_pred.png, id=168, 1350.04375pt x 676.5275pt>
+File: pictures/negbin_double_r_pred.png Graphic file (type png)
+<use pictures/negbin_double_r_pred.png>
+Package pdftex.def Info: pictures/negbin_double_r_pred.png  used on input line 
+606.
+(pdftex.def)             Requested size: 455.24408pt x 228.1272pt.
+ [23 <./pictures/negbin_double_r_trace_theta.png> <./pictures/negbin_double_r_b
+eta.png> <./pictures/negbin_double_r_theta.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 618--621
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--631
+
+ []
+
+[24 <./pictures/negbin_double_r_pred.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 643--646
+
+ []
+
+[25] [26]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 672.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [27]
+Underfull \hbox (badness 10000) in paragraph at lines 680--681
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
+
+ []
+
+<pictures/m2_s1.png, id=193, 668.4975pt x 670.505pt>
+File: pictures/m2_s1.png Graphic file (type png)
+<use pictures/m2_s1.png>
+Package pdftex.def Info: pictures/m2_s1.png  used on input line 797.
+(pdftex.def)             Requested size: 199.16928pt x 199.76163pt.
+<pictures/m2_s2.png, id=194, 670.505pt x 672.5125pt>
+File: pictures/m2_s2.png Graphic file (type png)
+<use pictures/m2_s2.png>
+Package pdftex.def Info: pictures/m2_s2.png  used on input line 804.
+(pdftex.def)             Requested size: 199.16928pt x 199.76453pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 795--808
+[]$[]$  $[]$ 
+ []
+
+<pictures/m2_s3.png, id=195, 669.50125pt x 666.49pt>
+File: pictures/m2_s3.png Graphic file (type png)
+<use pictures/m2_s3.png>
+Package pdftex.def Info: pictures/m2_s3.png  used on input line 811.
+(pdftex.def)             Requested size: 199.16928pt x 198.27052pt.
+<pictures/m2_s4.png, id=196, 671.50874pt x 668.4975pt>
+File: pictures/m2_s4.png Graphic file (type png)
+<use pictures/m2_s4.png>
+Package pdftex.def Info: pictures/m2_s4.png  used on input line 818.
+(pdftex.def)             Requested size: 199.16928pt x 198.2761pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 809--822
+[]$[]$  $[]$ 
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 825--828
+
+ []
+
+[30 <./pictures/m2_s1.png> <./pictures/m2_s2.png> <./pictures/m2_s3.png> <./pic
+tures/m2_s4.png>]
+<pictures/beta_1.png, id=209, 662.475pt x 654.445pt>
+File: pictures/beta_1.png Graphic file (type png)
+<use pictures/beta_1.png>
+Package pdftex.def Info: pictures/beta_1.png  used on input line 832.
+(pdftex.def)             Requested size: 184.9429pt x 182.69412pt.
+<pictures/beta_2.png, id=210, 657.45625pt x 649.42625pt>
+File: pictures/beta_2.png Graphic file (type png)
+<use pictures/beta_2.png>
+Package pdftex.def Info: pictures/beta_2.png  used on input line 839.
+(pdftex.def)             Requested size: 184.9429pt x 182.6804pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 830--843
+[]$[]$  $[]$ 
+ []
+
+<pictures/nu_1.png, id=211, 659.46375pt x 661.47125pt>
+File: pictures/nu_1.png Graphic file (type png)
+<use pictures/nu_1.png>
+Package pdftex.def Info: pictures/nu_1.png  used on input line 846.
+(pdftex.def)             Requested size: 184.9429pt x 185.50339pt.
+<pictures/nu_2.png, id=212, 662.475pt x 653.44125pt>
+File: pictures/nu_2.png Graphic file (type png)
+<use pictures/nu_2.png>
+Package pdftex.def Info: pictures/nu_2.png  used on input line 853.
+(pdftex.def)             Requested size: 184.9429pt x 182.41391pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 844--857
+[]$[]$  $[]$ 
+ []
+
+<pictures/alpha.png, id=213, 652.4375pt x 650.43pt>
+File: pictures/alpha.png Graphic file (type png)
+<use pictures/alpha.png>
+Package pdftex.def Info: pictures/alpha.png  used on input line 861.
+(pdftex.def)             Requested size: 170.71652pt x 170.1896pt.
+[31 <./pictures/beta_1.png> <./pictures/beta_2.png> <./pictures/nu_1.png> <./pi
+ctures/nu_2.png> <./pictures/alpha.png>]
+<pictures/tau.png, id=223, 1692.3225pt x 529.98pt>
+File: pictures/tau.png Graphic file (type png)
+<use pictures/tau.png>
+Package pdftex.def Info: pictures/tau.png  used on input line 870.
+(pdftex.def)             Requested size: 455.24408pt x 142.56277pt.
+<pictures/m2_g1.png, id=224, 1842.885pt x 994.71625pt>
+File: pictures/m2_g1.png Graphic file (type png)
+<use pictures/m2_g1.png>
+Package pdftex.def Info: pictures/m2_g1.png  used on input line 880.
+(pdftex.def)             Requested size: 426.79134pt x 230.35844pt.
+<pictures/m2_g2.png, id=225, 1840.8775pt x 999.735pt>
+File: pictures/m2_g2.png Graphic file (type png)
+<use pictures/m2_g2.png>
+Package pdftex.def Info: pictures/m2_g2.png  used on input line 888.
+(pdftex.def)             Requested size: 426.79134pt x 231.78003pt.
+ [32 <./pictures/tau.png> <./pictures/m2_g1.png>]
+<pictures/m2_bres.png, id=231, 648.4225pt x 578.16pt>
+File: pictures/m2_bres.png Graphic file (type png)
+<use pictures/m2_bres.png>
+Package pdftex.def Info: pictures/m2_bres.png  used on input line 897.
+(pdftex.def)             Requested size: 199.16928pt x 177.58685pt.
+<pictures/m2_out.png, id=232, 648.4225pt x 588.1975pt>
+File: pictures/m2_out.png Graphic file (type png)
+<use pictures/m2_out.png>
+Package pdftex.def Info: pictures/m2_out.png  used on input line 904.
+(pdftex.def)             Requested size: 199.16928pt x 180.66995pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 895--908
+[]$[]$  $[]$ 
+ []
+
+[33 <./pictures/m2_g2.png> <./pictures/m2_bres.png> <./pictures/m2_out.png>]
+<pictures/m1_future.png, id=239, 1835.85875pt x 1008.76875pt>
+File: pictures/m1_future.png Graphic file (type png)
+<use pictures/m1_future.png>
+Package pdftex.def Info: pictures/m1_future.png  used on input line 915.
+(pdftex.def)             Requested size: 426.79134pt x 234.50552pt.
+<pictures/m3_b1.png, id=240, 671.50874pt x 671.50874pt>
+File: pictures/m3_b1.png Graphic file (type png)
+<use pictures/m3_b1.png>
+Package pdftex.def Info: pictures/m3_b1.png  used on input line 925.
+(pdftex.def)             Requested size: 130.88268pt x 130.87708pt.
+
+[34 <./pictures/m1_future.png> <./pictures/m3_b1.png>]
+<pictures/m3_p1.png, id=246, 1839.87375pt x 995.72pt>
+File: pictures/m3_p1.png Graphic file (type png)
+<use pictures/m3_p1.png>
+Package pdftex.def Info: pictures/m3_p1.png  used on input line 940.
+(pdftex.def)             Requested size: 384.1122pt x 207.8767pt.
+<pictures/m3_p2.png, id=247, 1839.87375pt x 990.70125pt>
+File: pictures/m3_p2.png Graphic file (type png)
+<use pictures/m3_p2.png>
+Package pdftex.def Info: pictures/m3_p2.png  used on input line 947.
+(pdftex.def)             Requested size: 384.1122pt x 206.82893pt.
+ [35 <./pictures/m3_p1.png> <./pictures/m3_p2.png>]
+<pictures/m4_p1.png, id=254, 1838.87pt x 995.72pt>
+File: pictures/m4_p1.png Graphic file (type png)
+<use pictures/m4_p1.png>
+Package pdftex.def Info: pictures/m4_p1.png  used on input line 997.
+(pdftex.def)             Requested size: 426.79134pt x 231.09229pt.
+
+Underfull \vbox (badness 3118) has occurred while \output is active []
+
+ [36 <./pictures/m4_p1.png>]
+<pictures/m5_p1.png, id=259, 1839.87375pt x 997.7275pt>
+File: pictures/m5_p1.png Graphic file (type png)
+<use pictures/m5_p1.png>
+Package pdftex.def Info: pictures/m5_p1.png  used on input line 1060.
+(pdftex.def)             Requested size: 426.79134pt x 231.4364pt.
+ [37]
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1070
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1070
+
+ []
+
+[38 <./pictures/m5_p1.png>]
+<pictures/predicted_traffic.png, id=267, 1839.87375pt x 1008.76875pt>
+File: pictures/predicted_traffic.png Graphic file (type png)
+<use pictures/predicted_traffic.png>
+Package pdftex.def Info: pictures/predicted_traffic.png  used on input line 107
+3.
+(pdftex.def)             Requested size: 426.79134pt x 233.99757pt.
+<pictures/m6_out.png, id=268, 648.4225pt x 594.22pt>
+File: pictures/m6_out.png Graphic file (type png)
+<use pictures/m6_out.png>
+Package pdftex.def Info: pictures/m6_out.png  used on input line 1083.
+(pdftex.def)             Requested size: 170.71652pt x 156.44296pt.
+ [39 <./pictures/predicted_traffic.png>]
+<pictures/m6_p1.png, id=273, 1845.89626pt x 1012.78375pt>
+File: pictures/m6_p1.png Graphic file (type png)
+<use pictures/m6_p1.png>
+Package pdftex.def Info: pictures/m6_p1.png  used on input line 1093.
+(pdftex.def)             Requested size: 426.79134pt x 234.1562pt.
+ [40 <./pictures/m6_out.png> <./pictures/m6_p1.png>]
+Overfull \hbox (5.98975pt too wide) detected at line 1144
+[][]  [][]
+ []
+
+[41]
+<pictures/taus.png, id=283, 1852.9225pt x 1029.8475pt>
+File: pictures/taus.png Graphic file (type png)
+<use pictures/taus.png>
+Package pdftex.def Info: pictures/taus.png  used on input line 1184.
+(pdftex.def)             Requested size: 284.52756pt x 158.13187pt.
+<pictures/beta_1_2.png, id=284, 655.44875pt x 647.41875pt>
+File: pictures/beta_1_2.png Graphic file (type png)
+<use pictures/beta_1_2.png>
+Package pdftex.def Info: pictures/beta_1_2.png  used on input line 1192.
+(pdftex.def)             Requested size: 165.02597pt x 163.00023pt.
+<pictures/beta_2_2.png, id=285, 654.445pt x 641.39626pt>
+File: pictures/beta_2_2.png Graphic file (type png)
+<use pictures/beta_2_2.png>
+Package pdftex.def Info: pictures/beta_2_2.png  used on input line 1199.
+(pdftex.def)             Requested size: 165.02597pt x 161.72862pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 1190--1203
+[]$[]$  $[]$ 
+ []
+
+<pictures/nu_1_2.png, id=286, 662.475pt x 652.4375pt>
+File: pictures/nu_1_2.png Graphic file (type png)
+<use pictures/nu_1_2.png>
+Package pdftex.def Info: pictures/nu_1_2.png  used on input line 1206.
+(pdftex.def)             Requested size: 165.02597pt x 162.5216pt.
+<pictures/nu_2_2.png, id=287, 650.43pt x 653.44125pt>
+File: pictures/nu_2_2.png Graphic file (type png)
+<use pictures/nu_2_2.png>
+Package pdftex.def Info: pictures/nu_2_2.png  used on input line 1213.
+(pdftex.def)             Requested size: 165.02597pt x 165.78279pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 1204--1217
+[]$[]$  $[]$ 
+ []
+
+<pictures/xi_1_2.png, id=288, 659.46375pt x 645.41125pt>
+File: pictures/xi_1_2.png Graphic file (type png)
+<use pictures/xi_1_2.png>
+Package pdftex.def Info: pictures/xi_1_2.png  used on input line 1220.
+(pdftex.def)             Requested size: 165.02597pt x 161.50998pt.
+<pictures/xi_2_2.png, id=289, 659.46375pt x 640.3925pt>
+File: pictures/xi_2_2.png Graphic file (type png)
+<use pictures/xi_2_2.png>
+Package pdftex.def Info: pictures/xi_2_2.png  used on input line 1227.
+(pdftex.def)             Requested size: 165.02597pt x 160.25407pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 1218--1231
+[]$[]$  $[]$ 
+ []
+
+<pictures/xi_3_2.png, id=290, 654.445pt x 660.4675pt>
+File: pictures/xi_3_2.png Graphic file (type png)
+<use pictures/xi_3_2.png>
+Package pdftex.def Info: pictures/xi_3_2.png  used on input line 1234.
+(pdftex.def)             Requested size: 165.02597pt x 166.53745pt.
+<pictures/xi_4_2.png, id=291, 657.45625pt x 655.44875pt>
+File: pictures/xi_4_2.png Graphic file (type png)
+<use pictures/xi_4_2.png>
+Package pdftex.def Info: pictures/xi_4_2.png  used on input line 1241.
+(pdftex.def)             Requested size: 165.02597pt x 164.52187pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 1232--1245
+[]$[]$  $[]$ 
+ []
+
+[42 <./pictures/taus.png>]
+Overfull \vbox (0.5946pt too high) has occurred while \output is active []
+
+
+[43 <./pictures/beta_1_2.png> <./pictures/beta_2_2.png> <./pictures/nu_1_2.png>
+ <./pictures/nu_2_2.png> <./pictures/xi_1_2.png> <./pictures/xi_2_2.png> <./pic
+tures/xi_3_2.png> <./pictures/xi_4_2.png>]
+<pictures/tau_4.png, id=307, 656.4525pt x 638.385pt>
+File: pictures/tau_4.png Graphic file (type png)
+<use pictures/tau_4.png>
+Package pdftex.def Info: pictures/tau_4.png  used on input line 1250.
+(pdftex.def)             Requested size: 165.02597pt x 160.48227pt.
+<pictures/tau_5.png, id=308, 653.44125pt x 641.39626pt>
+File: pictures/tau_5.png Graphic file (type png)
+<use pictures/tau_5.png>
+Package pdftex.def Info: pictures/tau_5.png  used on input line 1257.
+(pdftex.def)             Requested size: 165.02597pt x 161.98308pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 1248--1261
+[]$[]$  $[]$ 
+ []
+
+<pictures/tau_1.png, id=309, 663.47874pt x 652.4375pt>
+File: pictures/tau_1.png Graphic file (type png)
+<use pictures/tau_1.png>
+Package pdftex.def Info: pictures/tau_1.png  used on input line 1265.
+(pdftex.def)             Requested size: 165.02597pt x 162.27272pt.
+[44 <./pictures/tau_4.png> <./pictures/tau_5.png> <./pictures/tau_1.png>]
+<pictures/Time_series.png, id=316, 1830.84pt x 994.71625pt>
+File: pictures/Time_series.png Graphic file (type png)
+<use pictures/Time_series.png>
+Package pdftex.def Info: pictures/Time_series.png  used on input line 1277.
+(pdftex.def)             Requested size: 426.79134pt x 231.87627pt.
+
+[45 <./pictures/Time_series.png>]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1289
+
+ []
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 1310.
+
+[46
+
+]
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 1339.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 133
+9.
+
+[47]
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 1362.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 136
+2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
+
+ []
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 1379.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 137
+9.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
+
+ []
+
+<pictures/posterior_off.png, id=328, 1851.91875pt x 1010.77625pt>
+File: pictures/posterior_off.png Graphic file (type png)
+<use pictures/posterior_off.png>
+Package pdftex.def Info: pictures/posterior_off.png  used on input line 1388.
+(pdftex.def)             Requested size: 199.16928pt x 108.70259pt.
+<pictures/posterior_nbn.png, id=329, 1850.915pt x 1012.78375pt>
+File: pictures/posterior_nbn.png Graphic file (type png)
+<use pictures/posterior_nbn.png>
+Package pdftex.def Info: pictures/posterior_nbn.png  used on input line 1395.
+(pdftex.def)             Requested size: 199.16928pt x 108.9803pt.
+
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 1386--1399
+[]$[]$  $[]$ 
+ []
+
+[48 <./pictures/posterior_off.png> <./pictures/posterior_nbn.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1420
+
+ []
+
+<pictures/cadorna_nin.png, id=336, 1851.91875pt x 1015.795pt>
+File: pictures/cadorna_nin.png Graphic file (type png)
+<use pictures/cadorna_nin.png>
+Package pdftex.def Info: pictures/cadorna_nin.png  used on input line 1423.
+(pdftex.def)             Requested size: 426.79134pt x 234.09293pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1434
+
+ []
+
+[49 <./pictures/cadorna_nin.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1435--1436
+
+ []
+
+[50]
+Appendix A.
+[51
+
+]
+Overfull \hbox (3.47125pt too wide) in paragraph at lines 1520--1522
+\T1/cmr/m/n/10.95 Indeed, from the MC prop-erty $\OMS/cmsy/m/n/10.95 L\OT1/cmr/
+m/n/10.95 (\OML/cmm/m/it/10.95 ^^N[]\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 ^^
+N[]; ^^\[]\OT1/cmr/m/n/10.95 ) = \OMS/cmsy/m/n/10.95 L\OT1/cmr/m/n/10.95 (\OML/
+cmm/m/it/10.95 ^^N[]\OMS/cmsy/m/n/10.95 j[][]\OML/cmm/m/it/10.95 ; ^^\[]\OT1/cm
+r/m/n/10.95 )$\T1/cmr/m/n/10.95 . Since $\OT1/cmr/m/n/10.95 ([][]\OML/cmm/m/it/
+10.95 ; ^^\[]\OT1/cmr/m/n/10.95 )[] 
+ []
+
+[52] [53]
+Appendix B.
+[54
+
+] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 18184 strings out of 492609
+ 326314 string characters out of 6131461
+ 483259 words of memory out of 5000000
+ 21812 multiletter control sequences out of 15000+600000
+ 562296 words of font info for 103 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,19n,63p,2096b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sftt1095.pfb>
+Output written on report.pdf (56 pages, 9887911 bytes).
+PDF statistics:
+ 464 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 371 words of extra memory for PDF output out of 10000 (max. 10000000)
+

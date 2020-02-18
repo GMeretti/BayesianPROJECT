@@ -40,7 +40,7 @@ plot_temperature <- function (weather_data)
   points(weather_data$Day, weather_data$Tmean, col="red", pch=weather_data$rain+15)
   points(weather_data$Day, weather_data$Tmax, col="blue", pch=weather_data$rain+15)
   
-  abline(v=seq(7.5,42, by=7),col="green")
+  abline(v=seq(7.5,42, by=7),col="darkred")
   
   legend(5, 20, legend = c("Not rainy","Rainy"), pch=c(15,16))
 }
@@ -50,10 +50,10 @@ plot_temperature <- function (weather_data)
 #Humidity
 plot_humidity <- function (weather_data)
 {
-  plot(weather_data$Day, weather_data$Humidity, col="red", type="l", xlab = "Day", ylab = "Humidity")
-  points(weather_data$Day, weather_data$Humidity, col="red", pch=19)
+  plot(weather_data$Day, weather_data$Humidity, col="blue", type="l", xlab = "Day", ylab = "Humidity", main='Humidity')
+  points(weather_data$Day, weather_data$Humidity, col="blue", pch=19)
   
-  abline(v=seq(7.5,42, by=7),col="green")
+  abline(v=seq(7.5,42, by=7),col="darkred")
 }
 
 plot_wind <- function (weather_data)
@@ -64,7 +64,7 @@ plot_wind <- function (weather_data)
   points(weather_data$Day, weather_data$Wind_mean, col="red", pch=weather_data$rain+15)
   points(weather_data$Day, weather_data$Wind_max, col="blue", pch=weather_data$rain+15)
   
-  abline(v=seq(7.5,42, by=7),col="green")
+  abline(v=seq(7.5,42, by=7),col="darkred")
   
   legend(5, 27, legend = c("Not rainy","Rainy"), pch=c(15,16))
 }
@@ -83,9 +83,9 @@ plot_day_by_day_time_series <- function(starting,ending)
   vec <- rep(0,42)
   vec[sub$Day] <- sub$N_travels
   
-  plot(1:42,vec,pch=19,col="red", type = "l", main= paste(starting," - ",ending,sep=""), xlab= "day", ylab="counts")
-  points(1:42,vec,pch=19,col="red")
-  abline(v=seq(7.5,42, by=7),col="green")
+  plot(1:42,vec,pch=19,col="black", type = "l", main= paste(starting," - ",ending,sep=""), xlab= "day", ylab="counts")
+  points(1:42,vec,pch=19,col="black")
+  abline(v=seq(7.5,42, by=7),col="darkred")
 }
 
 plot_day_by_day_time_series_together <- function()
@@ -97,9 +97,9 @@ plot_day_by_day_time_series_together <- function()
   vec <- rep(0,42)
   vec[sub$Day] <- sub$N_travels
   
-  plot(1:42,vec,pch=19,col="red", type = "l", main= "All stations together", xlab= "day", ylab="counts")
-  points(1:42,vec,pch=19,col="red")
-  abline(v=seq(7.5,42, by=7),col="green")
+  plot(1:42,vec,pch=19,col="black", type = "l", main= "All stations together", xlab= "day", ylab="counts")
+  points(1:42,vec,pch=19,col="black")
+  abline(v=seq(7.5,42, by=7),col="darkred")
 }
 ##---------------------------------------------##
 

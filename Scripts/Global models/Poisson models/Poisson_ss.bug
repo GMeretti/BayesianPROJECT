@@ -1,0 +1,23 @@
+model{
+	for(i in 1:n){ 
+		log(lambda[i]) <- alpha + inprod(beta[], X[i, ]) 
+		Y[i] ~ dpois(lambda[i])               
+	}  
+	
+	## priors
+	for(j in 1:r){
+	    slab[j] ~ dnorm(0,0.001)
+			gamma[j] ~ dbern(theta[j])
+   		beta[j] <- slab[j]*gamma[j]
+   }
+  for(j in 1:r){
+    theta[j] ~ dunif(0,1)    
+  }
+  alpha ~ dnorm(0,0.001) 
+
+ ## Predictive
+  for(i in 1:n){ 
+    Ypred[i] ~ dpois(lambda[i])               
+  }  
+ 
+}

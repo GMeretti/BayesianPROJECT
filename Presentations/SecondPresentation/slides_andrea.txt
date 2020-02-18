@@ -1,0 +1,95 @@
+\begin{frame}{What we are doing}
+	The BikeMi stations net in Milan
+	\includegraphics[width=0.6\linewidth]{pictures/mappa2.png} 
+\end{frame}
+
+\begin{frame}{Two prospective of the problem}
+	We followed two distinct paths:
+	\vspace{5mm}
+	\begin{columns}
+		\begin{column}{.5\textwidth}
+			\alert{Global model:} the total volume of bikes travels in a specific day $Y_t$ without considering the graph structure. This results in a single time series.
+		\end{column}
+	\hspace{5pt}
+	\vrule{}
+	\hspace{8pt}
+		\begin{column}{.5\textwidth}
+			\alert{Network model:} dividing in the different nodes and analysing the flow of bikes in the net. The dimensionality is much higher.
+		\end{column}
+	\end{columns}
+\end{frame}
+\begin{frame}{Poisson model}
+	Day by day Poisson
+	\begin{equation}
+		\begin{cases}
+		
+		Y_{t} \sim \mathrm{Po}(Y_{t}|\lambda_{t}) \\
+		
+		\lambda_{t} = \mathrm{exp}\{\alpha + \boldsymbol{\beta}\cdot \mathbf{x}_{t}\}
+		
+		\end{cases}
+	\end{equation}
+	With covariates $\mathbf{x}_{t}$:
+	\begin{itemize}
+		\item $Y_{t-1}$ volume on the previous day
+		\item $Y_{t-7}$ volume on the same weekday of the previous week
+		\item $W_t$ dummy for weekday / weekend
+		\item $R_t, R_{t-1}$ dummies for rain in the current and previous day
+		\item $T_t$ mean temperature for the day
+		\item $S_t, M_t$ dummies for Saturday and Monday 
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Predictive distribution of the poisson model}
+	Only 3 of 35 in the 90\% credible interval
+ 	\includegraphics[width=0.6\linewidth]{pictures/poiss_pred.png} 
+\end{frame}
+
+%%Here the bsts part
+
+\begin{frame}{Network model}
+	For every $(i,j)$ edge of the graph and $t \in 1:42$ we have $Y_{ij}(t)$ the number of travels from node $i$ to $j$ at day $t$.
+	\vspace{10mm}
+	
+	\alert{Problem:} more than 4 million variables $\Rightarrow$ Computationally untreatable
+	\vspace{5mm}
+	
+	\alert{Solutions:}
+	\begin{itemize}
+		\item clusterization through DBSCAN
+		\item simplification of the variables
+	\end{itemize}
+
+\begin{frame}{Preprocessing clusterization with DBSCAN}
+	Algorithm to divide the nodes into initial clusters. We introduced a modified version with a weight to break up the bigger clusters, minimizing the autorings presence.
+	From 334 nodes to 140.
+	\begin{figure}[H]
+		\begin{subfigure}[H]{0.5\linewidth}
+			\centering
+			\includegraphics[width=50 mm]{pictures/old_model_gephi.png}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[H]{0.5\linewidth}
+			\centering
+			\includegraphics[width=50 mm]{pictures/new_model_gephi.png}
+		\end{subfigure}
+		\caption{Properties in the orginal dataset}
+	\end{figure}
+\end{frame} 
+
+\begin{frame}{Modeling the flux}
+	To further simplify the analysis we focus on the bikes arriving and departing from each node $N_i^{IN}(\Delta t)$ and $N_i^{OUT}(\Delta t)$ in the time interval $\Delta t$.
+	\vspace{5mm}
+	We are interested in the smallest $\Delta t$ as possible but this would increase the number of variables $\Rightarrow$ consider them as \alert{functional data}.
+	\begin{columns}
+		\begin{column}{.5\textwidth}
+			$$V_i(t) = \lim_{\Delta t \to 0} \frac{N_i^{IN}(\Delta t) - N_i^{OUT}(\Delta t)}{\Delta t}$$
+			$$\Phi_i(t) = \int_{0}^{t}V_i(u)\,\mathrm{d}u$$
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\includegraphics[width=0.5\textwidth]{pictures/flux.png} 
+		\end{column}
+	\end{columns}
+	We can analyse when new bikes should be brought to which station.
+\end{frame}

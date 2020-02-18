@@ -1,0 +1,25 @@
+model{
+	for(i in 1:n){ 
+		lambda[i] <- exp(theta[] + beta[,X[i,p+1]] + alpha[,X[i,p+2]])
+		for(j in 1:m){
+		Nin[i,j] ~ dpois(lambda[i]*off[j,1])               
+	}}
+	
+	## priors
+	for(i in 1:p){
+		theta[i] ~ dnorm(0, .001)
+		for(j in 1:2){
+			alpha[i,j] ~ dnorm(0, .001)
+		}
+		for(j in 1:H){
+		beta[i,j] ~ dnorm(0,.001)  
+	}}
+	
+	## Predictive
+	for(i in 1:n){ 
+	for(j in 1:m){
+		Nin_pred[i,j] ~ dpois(lambda[i]*off[j,1])               
+	}}  
+	
+}
+

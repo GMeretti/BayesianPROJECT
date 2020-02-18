@@ -1,0 +1,19 @@
+model{
+	for(i in 1:n){ 
+		Y[i] ~ dnegbin(p_param[i],r_param) 
+    p_param[i] <- r_param/(r_param+lambda[i]) 
+    log(lambda[i]) <- mu[i]
+    mu[i] <- inprod(beta[],X[i,])
+  }  
+	
+	## priors
+	beta ~ dmnorm(mu.beta,tau.beta)
+  r_param ~ dunif(0,50)
+
+  ## Predictive
+	for(i in 1:n){ 
+		Ypred[i] ~ dnegbin(p_param[i],r_param)               
+	}  
+	
+}
+

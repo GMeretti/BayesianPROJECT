@@ -1,0 +1,82 @@
+This is the README for the fira package, version 4.3-2019-10-10.
+
+This package provides LaTeX, pdfLaTeX, XeLaTeX and LuaLaTeX
+support for the Fira Sans family of fonts (version 4.3)
+and the Fira Mono family (version 3.2), designed by Erik
+Spiekermann and Ralph du Carrois of Carrois Type Design.
+Fira Sans is available in seventeen weights, but six of
+these are considered "experimental"; the remaining eleven
+weights (with corresponding italics) are supported with
+this package: Thin, UltraLight, ExtraLight, Light, Book,
+Regular, Medium, SemiBold, Bold, ExtraBold, Heavy. Fira
+Mono is available in three weights (regular, medium, bold);
+artificially slanted oblique varints have been generated.
+
+To install this package on a TDS-compliant TeX system
+download the file "tex-archive"/install/fonts/fira.tds.zip
+where the preferred URL for "tex-archive" is
+http://mirrors.ctan.org. Unzip the archive at the root of an
+appropriate texmf tree, likely a personal or local tree. If
+necessary, update the file-name database (e.g., texhash).
+Update the font-map files by enabling the Map file fira.map.
+
+To use, add
+
+\usepackage{FiraSans}
+
+to the preamble of your document. These will activate Fira
+Sans as he sans-serif text font. To activate it as the main
+text font, use
+
+\usepackage[sfdefault]{FiraSans}
+
+Use 
+
+\usepackage{FiraMono} 
+
+to activate Fira Mono as the monospaced text font. The nomap
+option will suppress the tex-text mapping of TeX "smart
+quotes" and other ligatures into unicode glyphs for xeLaTeX
+and luaLaTeX.
+
+LuaLaTeX and xeLaTeX users who might prefer type1 fonts or
+who wish to avoid fontspec may use the type1 option. 
+
+Options scaled=<number> or scale=<number> may be used to
+scale the fonts.
+
+The default figure style for Fira Sans is
+proportional-oldstyle, but the lining (or lf) option will
+change the default to lining figures and the tabular (or
+tf) option will change the default to tabular (monospaced)
+figures. The default for Fira Mono is oldstyle.
+
+Font encodings supported are OT1, T1, TS1, LY1 and LGR.
+
+For Fira Sans, the medium, semibold, extrabold and heavy
+options activate those series as the default bold series.
+The book, light, extralight, ultralight and thin options
+activate those series as the default regular series. For
+Fira Mono, the medium option activates that series as the
+default bold series.
+
+Commands \firaoldstyle, \firalining, \firatabular,
+\firaproportional, \firamonooldstyle and \firamonolining
+allow for localized use of non-default figures. Superior
+numbers are available using \sufigures. Commands \firathin,
+\firalight etc. allow for localized use of those series.
+
+Commands \firalgr and \firamonolgr allow for localized use
+of LGR-encoded type1 fonts.
+
+The original OpenType fonts were obtained from
+
+https://github.com/bBoxType/FiraSans
+
+and are licensed under the SIL Open Font License, version
+1.1; the text may be found in the doc directory. The
+type1 versions were created using cfftot1.
+The support files were created using autoinst and are
+licensed under the terms of the LaTeX Project Public
+License. The maintainer of this package is Bob Tennent at
+rdt(at)cs(dot)queensu(dot)ca.
